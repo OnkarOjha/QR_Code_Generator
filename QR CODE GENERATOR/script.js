@@ -7,7 +7,7 @@ let loader = document.querySelector("#loading");
 qr_code.addEventListener("click",()=>{
 
     loader.style.display = "block";
-    code_img = function(){
+    code_img.onload = function(){
 
         loader.style.display = "none";
     }
